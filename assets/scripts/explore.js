@@ -48,11 +48,11 @@ function init() {
       }
       utterThis.addEventListener("end", stopTalking, {once: true});
       synth.speak(utterThis);
-      ttsDisplay.setAttribute("src", "/assets/images/smiling-open.png");
+      ttsDisplay.setAttribute("src", "assets/images/smiling-open.png");
     }
   }
 
   function stopTalking() {
-    ttsDisplay.setAttribute("src", "/assets/images/smiling.png");
+    ttsDisplay.setAttribute("src", "assets/images/smiling.png");
   }
 }
